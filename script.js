@@ -1,4 +1,7 @@
 
+let myname = "";
+
+
 function userName() {
 
     let thisName;
