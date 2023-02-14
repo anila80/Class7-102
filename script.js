@@ -12,3 +12,12 @@ function userName() {
         }
     }
 }
+
+let userAns = "";
+
+function rating(){
+    let userAns = prompt ("How would you rate my webpage 1-5?"); 
+    for(let x = 0; x < userAns; x++){
+        document.getElementById("thisPar").innerHTML += "<img src = https://i.etsystatic.com/16458179/r/il/407f8e/4334905895/il_1588xN.4334905895_43ze.jpg width=100px height=100px>"
+}
+}
