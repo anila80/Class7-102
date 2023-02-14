@@ -30,3 +30,5 @@ function whodat () {
     alert ("Hello, " + myname);
     }
 }
+
+whodat();
