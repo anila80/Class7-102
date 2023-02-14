@@ -21,3 +21,12 @@ function rating(){
         document.getElementById("thisPar").innerHTML += "<img src = https://i.etsystatic.com/16458179/r/il/407f8e/4334905895/il_1588xN.4334905895_43ze.jpg width=100px height=100px>"
 }
 }
+
+function whodat () {
+    myname = prompt("What is your name?");
+    if (myname != "Anila"){
+        alert ('ERROR HACKER ERROR');   
+    } else {
+    alert ("Hello, " + myname);
+    }
+}
